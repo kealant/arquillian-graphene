@@ -8,7 +8,7 @@ public class ParentElement {
             WebElement parent = elem.findElement(By.xpath(".."));
             return true;
         }
-        catch (NoSuchElementException nosuchelementexception){
+        catch (NoSuchElementException ex){
             return false;
         }
     }
