@@ -8,7 +8,7 @@ public class ChildElement {
             WebElement child = elem.findElement(By.xpath(".//input"));
             return true;
         }
-        catch(NoSuchElementException nosuchelementexception){
+        catch(NoSuchElementException ex){
             return false;
         }
     }
