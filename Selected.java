@@ -1,7 +1,7 @@
 
 import org.openqa.selenium.WebElement;
 
-public class selected {
+public class Selected {
     
     public WebElement selected(WebElement element){
         assert element.isSelected();
